@@ -21,19 +21,11 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-stack Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Blockchain Developer",
       icon: creator,
     },
   ];
@@ -156,20 +148,20 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mern-Whats",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web app web-WhatsApp clone allowing users to do real-time chat along with google authentication. Implemented real time application using Socket.io.",
       tags: [
         {
-          name: "react",
+          name: "MERN",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "googole-authentication",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "socket.io",
           color: "pink-text-gradient",
         },
       ],
@@ -177,46 +169,46 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "DeVahan",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Decentralized vehicle management system to track vehicles using solidity smart contracts and IPFS, with minimized on-chain data and operations from manufacturing till sold. ",
       tags: [
         {
-          name: "react",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "blockchain",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "solidity",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/neetu-749/Dvahan",
     },
     {
-      name: "Trip Guide",
+      name: "Let's Groww",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A marketplace to connect company and investor allowing real-time chat using socket.io. Firebase realtime database is used for images and mongodb for rest. ",
       tags: [
         {
-          name: "nextjs",
+          name: "reactjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "redux",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "socket.io",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/neetu-749/lets_groww_backend",
     },
   ];
   

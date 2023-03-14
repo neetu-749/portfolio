@@ -26,7 +26,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 ${scrolled} "bg-primary":"bg-transparent"`}
+      className={`${styles.paddingX} w-full flex item-center py-5 fixed top-0 z-20 ${
+        scrolled ? "bg-primary" : "bg-transparent"} `}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link
@@ -57,7 +58,7 @@ const Navbar = () => {
         </ul>
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img 
-            src={toggle ? close: menu} alt="menu" className='w-[20px] h-[20px] object-contain'
+            src={toggle ? close: menu} alt="menu" className='w-[20px] h-[20px] object-contain cursor-pointer'
             onClick={() => setToggle(!toggle)}
           />
 
