@@ -9,7 +9,6 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -17,31 +16,48 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import cpp from "./tech/cpp.png";
+import solidity from "./tech/solidity.png";
+import express from "./tech/express.png";
+import ethereum from "./tech/ethereum.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import threejs from "./tech/threejs.png";
+import hyperedge from "./company/hyperedge.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import truffle from "./tech/truffle.png";
+import metamask from "./tech/metamask.png";
+import mysql from "./tech/mysql.png";
+import postman from "./tech/postman.png";
+import ganache from "./tech/ganache.png";
+import hardhat from "./tech/hardhat.png";
+import socketio from "./tech/socketio.png";
+import bootstrap from "./tech/bootstrap.png";
+import materialui from "./tech/materialui.png";
 
 export {
   logo,
+  truffle,
+  metamask,
+  mysql,
+  postman,
+  ganache,
+  hardhat,
+  socketio,
+  bootstrap,
+  materialui,
   backend,
   creator,
   mobile,
   web,
   github,
   menu,
+  cpp,
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
@@ -49,13 +65,13 @@ export {
   nodejs,
   reactjs,
   redux,
+  solidity,
+  ethereum,
+  express,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  hyperedge,
   carrent,
   jobit,
   tripguide,
