@@ -8,7 +8,7 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 // template_c8yemee
-// service_4zzldlq
+// vservice_caw5gzd
 // 1wDsjDvLQLliaOl0C
 
 const Contact = () => {
@@ -37,7 +37,7 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_4zzldlq',
+        'service_caw5gzd',
         'template_c8yemee',
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
@@ -63,7 +63,6 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
           alert("Ahh, something went wrong. Please try again.");
         }
       );
@@ -103,7 +102,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="What's your email address?"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -114,7 +113,7 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
+              placeholder='Leave your message here...'
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>

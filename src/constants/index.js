@@ -21,12 +21,20 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
   
   const services = [
     {
-      title: "Full-stack Web Developer",
-      icon: web,
+      title: "Full-stack Developer",
+      icon: mobile,
     },
     {
       title: "Blockchain Developer",
       icon: creator,
+    },
+    {
+      title: "Frontend Developer",
+      icon: web,
+    },
+    {
+      title: "Backend Developer",
+      icon: backend,
     },
   ];
   
@@ -148,27 +156,6 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
   
   const projects = [
     {
-      name: "Mern-Whats",
-      description:
-        "Web app web-WhatsApp clone allowing users to do real-time chat along with google authentication. Implemented real time application using Socket.io.",
-      tags: [
-        {
-          name: "MERN",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "googole-authentication",
-          color: "green-text-gradient",
-        },
-        {
-          name: "socket.io",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
       name: "DeVahan",
       description:
         "Decentralized vehicle management system to track vehicles using solidity smart contracts and IPFS, with minimized on-chain data and operations from manufacturing till sold. ",
@@ -190,9 +177,30 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
       source_code_link: "https://github.com/neetu-749/Dvahan",
     },
     {
+      name: "Mern-Whats",
+      description:
+        "Web app web-WhatsApp clone allowing users to do real-time chat along with google authentication developed using MERN. Implemented real time application using Socket.io.",
+      tags: [
+        {
+          name: "MERN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "google-authentication",
+          color: "green-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
+    {
       name: "Let's Groww",
       description:
-        "A marketplace to connect company and investor allowing real-time chat using socket.io. Firebase realtime database is used for images and mongodb for rest. ",
+        "A marketplace to connect company and investor allowing real-time chat using socket.io. Firebase realtime database is used for images and MongoDb for rest.     ",
       tags: [
         {
           name: "reactjs",

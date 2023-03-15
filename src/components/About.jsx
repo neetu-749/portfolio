@@ -48,9 +48,11 @@ const About = () => {
       >
         I'm a skilled software developer with experience in MERN and
         JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        Three.js. I'm a quick learner and collaborate closely with other developers to
         create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        real-world problems. 
+        I like to work on my problem solving skills tp optimize applications by participating in contests and solving questions based on Data Structures and Algorithms.
+        My LeetCode profile Leetcode | bestie shows my problem-solving ability.
       </motion.p>
       
       <div className='mt-20 flex flex-wrap gap-10'>
