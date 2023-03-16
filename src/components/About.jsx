@@ -52,10 +52,10 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. 
         I like to work on my problem solving skills tp optimize applications by participating in contests and solving questions based on Data Structures and Algorithms.
-        My LeetCode profile Leetcode | bestie shows my problem-solving ability.
+        My <a href={"https://leetcode.com/bestie/"} ><u>Leetcode Profile</u></a> shows my problem-solving ability.
       </motion.p>
       
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div style={{justifyContent:"center"}} className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

@@ -14,6 +14,14 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
       title: "Work",
     },
     {
+      id: "tech",
+      title: "Tech",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -28,14 +36,7 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
       title: "Blockchain Developer",
       icon: creator,
     },
-    {
-      title: "Frontend Developer",
-      icon: web,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+    
   ];
   
   const technologies = [
