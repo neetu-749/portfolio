@@ -51,7 +51,7 @@ const About = () => {
         Three.js. I'm a quick learner and collaborate closely with other developers to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. 
-        I like to work on my problem solving skills tp optimize applications by participating in contests and solving questions based on Data Structures and Algorithms.
+        I like to work on my problem solving skills to optimize applications by participating in contests and solving questions based on Data Structures and Algorithms.
         My <a href={"https://leetcode.com/bestie/"} ><u>Leetcode Profile</u></a> shows my problem-solving ability.
       </motion.p>
       

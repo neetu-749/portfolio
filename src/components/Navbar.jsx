@@ -23,7 +23,6 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-  console.log(toggle,"yeas");
 
   return (
     <nav

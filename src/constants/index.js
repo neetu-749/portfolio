@@ -1,8 +1,39 @@
-import {cpp, html, css, javascript, typescript} from "../assets";
-import {mongodb, express, reactjs, nodejs} from "../assets";
-import {materialui, bootstrap, socketio, mysql, postman, tailwind,threejs,} from "../assets";
-import {solidity, ethereum, hardhat, ganache, truffle, metamask,} from "../assets";
-import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, tripguide, } from "../assets";
+// import {cpp, html, css, javascript, typescript} from "../assets";
+// import {mongodb, express, reactjs, nodejs} from "../assets";
+// import {materialui, bootstrap, socketio, mysql, postman, tailwind,threejs,} from "../assets";
+// import {solidity, ethereum, hardhat, ganache, truffle, metamask,} from "../assets";
+import {mobile, creator, carrent,  jobit, tripguide, } from "../assets";
+import {hyperedge} from "../assets";
+import {
+SiSolidity,
+SiCplusplus,
+SiJavascript,
+SiMongodb,
+SiExpress,
+SiReact,
+SiNodedotjs,
+SiTailwindcss,
+SiMysql,
+SiPostman,
+SiBootstrap,
+SiSocketdotio,
+SiDocker,
+SiGithubactions,
+SiGooglecloud,
+SiLatex,
+SiHeroku,
+SiVercel,
+SiFigma,
+SiCanva,
+SiGit,
+SiHtml5,
+SiCss3,
+SiTypescript,
+SiEthereum,
+SiThreedotjs,
+SiIpfs
+ } from "react-icons/si"
+ import {FaHardHat} from "react-icons/fa"
   
   export const navLinks = [
     {
@@ -42,99 +73,115 @@ import {mobile, backend, creator, web, git, docker, hyperedge, carrent, jobit, t
   const technologies = [
     {
       name: "C++",
-      icon: cpp
+      icon: SiCplusplus
     },
     {
       name: "HTML 5",
-      icon: html,
+      icon: SiHtml5,
     },
     {
       name: "CSS 3",
-      icon: css,
+      icon: SiCss3,
     },
     {
       name: "JavaScript",
-      icon: javascript,
+      icon: SiJavascript,
     },
     {
       name: "TypeScript",
-      icon: typescript,
+      icon: SiTypescript,
     },
     {
       name: "MongoDB",
-      icon: mongodb,
+      icon: SiMongodb,
     },
     {
       name: "Express JS",
-      icon: express
+      icon: SiExpress,
     },
     {
       name: "React JS",
-      icon: reactjs,
+      icon: SiReact,
     },
     {
       name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "Material UI",
-      icon: materialui,
+      icon: SiNodedotjs,
     },
     {
       name: "Bootstrap",
-      icon: bootstrap,
+      icon: SiBootstrap,
     },
     {
       name: "Socket.io",
-      icon: socketio,
+      icon: SiSocketdotio,
     },
     {
       name: "MySQL",
-      icon: mysql,
+      icon: SiMysql,
     },
     {
       name: "Solidity",
-      icon: solidity,
+      icon: SiSolidity,
     },
     {
       name: "Ethereum",
-      icon: ethereum,
+      icon: SiEthereum,
     },
     {
       name: "Hardhat",
-      icon: hardhat,
+      icon: FaHardHat,
     },
     {
-      name: "Ganache",
-      icon: ganache,
-    },
-    {
-      name: "Truffle",
-      icon: truffle,
-    },
-    {
-      name: "Metamask",
-      icon: metamask,
+      name: "IPFS",
+      icon: SiIpfs,
     },
     {
       name: "Postman",
-      icon: postman,
+      icon: SiPostman,
     },
     {
       name: "Tailwind CSS",
-      icon: tailwind,
+      icon: SiTailwindcss,
     },
     {
       name: "Three JS",
-      icon: threejs,
+      icon: SiThreedotjs,
     },
     {
       name: "git",
-      icon: git,
+      icon: SiGit,
     },
     {
       name: "docker",
-      icon: docker,
+      icon: SiDocker,
+    },
+    {
+      name: "google cloud",
+      icon: SiGooglecloud,
+    },
+    {
+      name: "github actions",
+      icon: SiGithubactions,
+    },
+    {
+      name: "latex",
+      icon: SiLatex,
+    },
+    {
+      name: "heroku",
+      icon: SiHeroku,
+    },
+    {
+      name: "vercel",
+      icon: SiVercel,
+    },
+    {
+      name: "figma",
+      icon: SiFigma,
+    },
+    {
+      name: "canva",
+      icon: SiCanva,
     },
   ];
   

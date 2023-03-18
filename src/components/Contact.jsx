@@ -1,22 +1,14 @@
 import React, { useRef, useState } from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-
-
 import { SectionWrapper } from "../hoc";
 
  import { 
-	
 	SiLinkedin,
 	SiGmail,
 	SiGithub,
 	SiLeetcode
  } from "react-icons/si"
 
-
-// template_c8yemee
-// vservice_caw5gzd
-// 1wDsjDvLQLliaOl0C
 
 const Contact = () => {
   const formRef = useRef();
@@ -78,7 +70,7 @@ const Contact = () => {
 
   return (
     <div style={{justifyContent:"center"}}
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row xm:flex-row flex-row sm:flex-row  gap-10 overflow-hidden`}
     >
                 <a target={"_blank"} style={{display:"inline"}} href="https://github.com/neetu-749">
 									<SiGithub size={25} />
